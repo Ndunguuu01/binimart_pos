@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Darker text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #87ceeb; /* Lighter blue header */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    width: 50px; /* Adjust logo size */
+    margin-right: 15px;
+}
+
+.container {
+    max-width: 800px; /* Centering the content */
+    margin: 0 auto; /* Centering */
+    padding: 20px;
+    text-align: center; /* Center text */
+}
+
+h1 {
+    color: #2c3e50; /* Dark blue for headings */
+}
+/* Make the navigation links appear vertically */
+.nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 10;
+    margin: 0;
+    display: flex;
+}
+.nav ul li {
+    margin-right: 40px; /* Add space between the links */
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000; /* Customize link color */
+}
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #e0f7fa; /* Slightly lighter background for forms */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4cae4f; /* Green submit button */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5cb85c; /* Darker green on hover */
+}
